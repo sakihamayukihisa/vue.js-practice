@@ -1,0 +1,296 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+body {
+    max-width: 1200px;
+}
+
+header, .menu2, main {
+    width: 100%;
+}
+
+.inner-flex {
+  display: flex;
+}
+
+.menu {
+position: relative;
+ right: 80px;
+}
+
+.flex {
+  display: flex;
+  vertical-align: middle;
+  position: relative;
+}
+
+.flex li {
+  list-style: none;
+}
+
+
+
+.flex li a {
+  text-decoration: none;
+  color: #696969;
+}
+
+.LINK01 {
+    padding-top: 45px;
+    position: relative;
+    left: 360px;
+}
+
+.LINK02 {
+    padding-top: 45px;
+    position: relative;
+    left: 370px;
+}
+
+.saito {
+    margin-top: 35px;
+}
+
+.form {
+    font-size: 15px;
+    padding-left: 17px;
+    border-radius: 4px;
+    color: #6C757D;
+    position: relative;
+    left: 390px;
+}
+
+.muryou {
+    margin-top: 17px;
+    padding: 15px;
+    border: solid 1px none;
+    border-radius: 4px;
+    background: #FFA500;
+    position: relative;
+    left: 395px;
+}
+
+.muryou a {
+    color: white !important;
+}
+
+.siryou {
+    margin-top: 17px;
+    padding: 15px;
+    border: solid 1px none;
+    border-radius: 4px;
+    background: #00008B;
+    position: relative;
+    left: 400px;
+}
+
+.siryou a {
+    color: white !important;
+}
+
+.logo img {
+  height: 50px;
+  margin-right: auto;
+  margin-left: 72px;
+  margin-top: 15px;
+}
+
+hr {
+    height: 2px;
+    background: #00008B;
+}
+
+.flex2 {
+    display: flex;
+    justify-content: center;
+}
+
+.flex2 li {
+    margin: 13px 25px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 70px;
+    padding-right: 70px;
+    border-left: solid 1px#DEE2E6;
+}
+
+.flex2 li :hover {
+    opacity: 0.8;
+}
+
+.end {
+    border-right: solid 1px #DEE2E6;
+}
+
+.flex2 li a {
+    text-decoration: none;
+    color: #989798;
+}
+
+.top-image {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+@media (min-width: 768px)
+  .top-image {
+    max-width: 720px;
+}
+
+.top-image h1 img {
+    height: 465px;
+    width: 1110px;
+    border-radius: 4px;
+}
+
+.text1 h1 {
+    color: white;
+    position: relative;
+    bottom: 350px;
+    left: 50px;
+    font-size: 50px;
+    font-family: inherit;
+    text-shadow: 1px 1px 3px #000;
+}
+
+.text1 h2 {
+   color: white;
+    position: relative;
+    bottom:330px;
+    left: 50px;
+    font-size: 30px;
+    text-shadow: 1px 1px 3px #000;
+
+}
+
+.text1 hr {
+  position: relative;
+  bottom:310px;
+  left: 120px;
+  background: white;
+  width: 80%;
+}
+
+.text1 h3 {
+    color: white;
+    position: relative;
+    bottom:300px;
+    left: 50px;
+    font-size: 15px;
+    text-shadow: 1px 1px 3px #000;
+    text-align: center;
+}
+
+.nyuugaku {
+    background: #ffc107;
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+    border: solid #ffc107;
+    border-radius: 4px;     
+    position: relative;
+    bottom: 270px;
+    left: 50px;
+    font-size: 20px;
+    font-weight: bold;
+}
